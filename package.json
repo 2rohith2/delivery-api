@@ -1,9 +1,14 @@
 {
-  "name": "delivery-api",
-  "author": "Rohith Kumar E S",
+  "author": {
+    "name": "Rohith Kumar E S",
+    "email": "rohith_kumar222@hotmail.com",
+    "url": "https://github.com/2rohith2/"
+  },
   "description": "Delivery application can be used in Logistics Industry build using NodeJs",
-  "version": "1.0.0",
+  "license": "MIT",
+  "name": "delivery-api",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "build": "npm run build-tsc && babel ./build --out-dir build",
     "build-tsc": "tsc",
